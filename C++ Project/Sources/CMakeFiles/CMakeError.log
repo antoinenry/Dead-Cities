@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2853206391/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2853206391.dir/build.make CMakeFiles/cmTryCompileExec2853206391.dir/build
+make[1]: entrant dans le répertoire « /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2853206391.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2853206391.dir/CheckSymbolExists.c.o   -c /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2853206391
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2853206391.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2853206391.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2853206391 -rdynamic 
+CMakeFiles/cmTryCompileExec2853206391.dir/CheckSymbolExists.c.o: dans la fonction « main »:
+CheckSymbolExists.c:(.text+0x16): référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2853206391] Erreur 1
+make[1]: quittant le répertoire « /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec2853206391/fast] Erreur 2
+
+File /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2543903280/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2543903280.dir/build.make CMakeFiles/cmTryCompileExec2543903280.dir/build
+make[1]: entrant dans le répertoire « /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2543903280.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2543903280.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2543903280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2543903280.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2543903280.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2543903280 -rdynamic -lpthreads 
+/usr/bin/ld: ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: quittant le répertoire « /home/thornscrup/Projets/DeadPixels/CMakeFiles/CMakeTmp »
+make[1]: *** [cmTryCompileExec2543903280] Erreur 1
+make: *** [cmTryCompileExec2543903280/fast] Erreur 2
+
+

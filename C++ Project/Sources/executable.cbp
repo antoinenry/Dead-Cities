@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="executable" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/thornscrup/Projets/DeadPixels" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/thornscrup/Projets/DeadPixels" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="executable">
+         <Option output="/home/thornscrup/Projets/DeadPixels/executable" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 executable" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="executable/fast">
+         <Option output="/home/thornscrup/Projets/DeadPixels/executable" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 executable/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/thornscrup/Projets/DeadPixels" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thornscrup/Projets/DeadPixels/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/actor.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/controls.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/display.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/main.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/tile.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/tilemap.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/vec2.cpp">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/actor.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/controls.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/display.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/extern.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/tile.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/tilemap.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/vec2.h">
+      </Unit>
+      <Unit filename="/home/thornscrup/Projets/DeadPixels/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
