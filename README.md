@@ -5,6 +5,8 @@ This repository contains two version of a video game project.
 - an older, C++ version
 - a more recent version that uses Unity3D and C# scripts
 
+![Deadcities](https://github.com/antoinenry/Dead-Cities/blob/master/Unity3D%20Project/screenshot.png)
+
 A quick game description
 ------------------------
 Dead Cities is a survival game set in randomly generated cities filled with hostile zombie-like creatures. The goal is to find survivors to gather and manage a team through the apocalypse.
