@@ -2,7 +2,11 @@ Dead Cities
 ===========
 
 This repository contains two version of a video game project.
+
 - an older, C++ version
+
+![Deadcities](https://github.com/antoinenry/Dead-Cities/blob/master/C++%20Project/screenshot.png)
+
 - a more recent version that uses Unity3D and C# scripts
 
 ![Deadcities](https://github.com/antoinenry/Dead-Cities/blob/master/Unity3D%20Project/screenshot.png)
