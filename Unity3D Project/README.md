@@ -1,33 +1,26 @@
 C++ Version (2015)
 ==================
 
-This first version of the project was developped on Qt Linux, using OpenGL and GLUT.
+This second version of the project was made on Windows with Unity3D and C#.
 
 ![Deadcities](https://github.com/antoinenry/Dead-Cities/blob/master/Unity3D%20Project/screenshot.png)
 
 Main features
 -------------
 
-- Static maps (walls and door) with basic map editor (not on this git)
-- Randomly generated characters and zombies (male/female, clothes, skin and hair color)
-- Minimalist sprite animations (based on the FTL models)
-- Mouse control with action menus (walk, run, open/close door, follow)
-- Multiple characters control
-- Keyboard control (movements only)
-- Fonctionnal artificial intelligence for zombies
+- 3D
+- Random city generation
+- Character mouse control and UI
+- Pathfinding
+- Dynamic expanding world
+- Basic camera works
 
 Project Status
 --------------
 
-I've stopped developpement on this version since I've started working with unity. These are the three main reasons of this change:
+I'm currently working on this version. I've been concentrating my effort mainly on the world generation, which is one of the reasons I switched to Unity. The exterior (building and streets) works fine but I'm still working on generating the inside of each building. 
 
-- I wanted to implement a random city generator, which worked better in my head in a 3D environment, and I didn't want to use 3D modeling.
-- Unity seemed like a better way to try out ideas and make adjustments.
-- I wanted to work with Unity.
+World Generation
+----------------
 
-IA
---
-
-This is a feature I find very interesting to develop and that I'm looking forward to working on again in the Unity3D version. The zombies have a pretty natural behaviour, wandering around until they see something that might interest them. This can be a human, but also another hostile or an open door. They are able to destroy the doors if they see someone enter a building. The random component gives them a really nice presence, sometime even scary: they can stop in front of the building you're hiding in, hesitate and then go away.
-My objective is to transfer this behaviour to my Unity3D projectC++, and enhance it even more. I'm thinking about adding a hearing radius to their detection capabilities.
-
+This is the main feature I've been developping in this version. I've started drawing doodles of city maps, and then tried to recreate my process in code: first trace the main streets, then smaller streets, then fill the gap with various buildings. The result is fonctionnal, but lacks a little variety. The program generates the city block-by-block and adds new blocks each time a character gets close to the world limits. My plan is to find a few other generation methods for other types of blocks (plazza, parking, mall...), and pick a different method each time I generate a new block. 
