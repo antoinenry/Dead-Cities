@@ -12,6 +12,7 @@ Main features
 - Randomly generated characters and zombies (male/female, clothes, skin and hair color)
 - Minimalist sprite animations (based on the FTL models)
 - Mouse control with action menus (walk, run, open/close door, follow)
+- Path finding
 - Multiple characters control
 - Keyboard control (movements only)
 - Fonctionnal artificial intelligence for zombies
