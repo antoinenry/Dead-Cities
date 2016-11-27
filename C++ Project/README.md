@@ -28,6 +28,6 @@ I've stopped developpement on this version since I've started working with unity
 IA
 --
 
-This is a feature I find very interesting to develop and that I'm looking forward to work on in the Unity3D version. The zombies have a pretty natural behaviour, wandering around until they see something that might interest them. This can be a human, but also another hostile or an open door. They are able to destroy the doors if they see someone enter a building. The random component gives them a really nice presence, sometime even scary: they can stop in front of the building you're hiding in, hesitate and then go away.
+This is a feature I find very interesting to develop and that I'm looking forward to working on again in the Unity3D version. The zombies have a pretty natural behaviour, wandering around until they see something that might interest them. This can be a human, but also another hostile or an open door. They are able to destroy the doors if they see someone enter a building. The random component gives them a really nice presence, sometime even scary: they can stop in front of the building you're hiding in, hesitate and then go away.
 My objective is to transfer this behaviour to my Unity3D project, and enhance it even more. I'm thinking about adding a hearing radius to their detection capabilities.
 
